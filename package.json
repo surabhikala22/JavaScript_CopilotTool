@@ -1,0 +1,17 @@
+{
+  "name": "selenium-pom-framework",
+  "version": "1.0.0",
+  "description": "Selenium POM framework for login validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.30.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chromedriver": "^134.0.5",
+    "mocha": "^10.2.0"
+  }
+}
