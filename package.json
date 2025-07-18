@@ -4,10 +4,16 @@
   "description": "Selenium POM framework for login validation",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/**/*.js"
+    "test": "mocha tests/**/*.js --timeout 30000"
+  },
+  "config": {
+    "timeout": 30000
   },
   "dependencies": {
-    "selenium-webdriver": "^4.30.0"
+    "jquery": "^3.7.1",
+    "jsdom": "^26.1.0",
+    "nock": "^14.0.5",
+    "selenium-webdriver": "^4.34.0"
   },
   "devDependencies": {
     "chai": "^4.3.7",
