@@ -4,7 +4,9 @@
   "description": "Selenium POM framework for login validation",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/**/*.js --timeout 30000"
+   // "test": "mocha tests/**/*.js --timeout 30000",
+   "test": "mocha --reporter mocha-junit-reporter"
+}
   },
   "config": {
     "timeout": 30000
@@ -18,6 +20,7 @@
   "devDependencies": {
     "chai": "^4.3.7",
     "chromedriver": "^134.0.5",
-    "mocha": "^10.2.0"
+    "mocha": "^10.2.0",
+    "mocha-junit-reporter": "^2.2.1"
   }
 }
