@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Selenium POM framework for login validation",
   "main": "index.js",
-  "scripts": { 
-   "test": "mocha --reporter mocha-junit-reporter"
+  "scripts": {
+    "test": "mocha --reporter mocha-junit-reporter --reporter-options mochaFile=test-results/results.xml"
   },
   "config": {
     "timeout": 30000

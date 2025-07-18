@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="64.459" tests="6" failures="2">
+  <testsuite name="Root Suite" timestamp="2025-07-18T12:31:31" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Invalid Login Test" timestamp="2025-07-18T12:31:31" tests="4" file="/Users/surabhikala/Desktop/JavaScript_CopilotTool/tests/invalidLoginTest.js" time="29.304" failures="2">
+    <testcase name="Invalid Login Test should display error message for invalid login with username: &quot;incorrectUser&quot; and password: &quot;Password123&quot;" time="12.399" classname="should display error message for invalid login with username: &quot;incorrectUser&quot; and password: &quot;Password123&quot;">
+    </testcase>
+    <testcase name="Invalid Login Test should display error message for invalid login with username: &quot;student&quot; and password: &quot;incorrectPassword&quot;" time="12.548" classname="should display error message for invalid login with username: &quot;student&quot; and password: &quot;incorrectPassword&quot;">
+    </testcase>
+    <testcase name="Invalid Login Test should display error message for invalid login with username: &quot;incorrectUser&quot; and password: &quot;Password123&quot;" time="0.012" classname="should display error message for invalid login with username: &quot;incorrectUser&quot; and password: &quot;Password123&quot;">
+      <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&quot;username&quot;]&quot;}
+  (Session info: chrome=138.0.7204.158)" type="NoSuchElementError"><![CDATA[NoSuchElementError: no such element: Unable to locate element: {"method":"css selector","selector":"*[name="username"]"}
+  (Session info: chrome=138.0.7204.158)
+    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:523:15)
+    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:524:13)
+    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:456:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:745:17)
+    at async toWireValue (node_modules/selenium-webdriver/lib/webdriver.js:149:15)
+    at async /Users/surabhikala/Desktop/JavaScript_CopilotTool/node_modules/selenium-webdriver/lib/webdriver.js:195:16
+    at async forEachKey (node_modules/selenium-webdriver/lib/webdriver.js:189:9)
+    at async convertKeys (node_modules/selenium-webdriver/lib/webdriver.js:194:3)
+    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:743:22)
+    at async Context.<anonymous> (tests/invalidLoginTest.js:52:9)]]></failure>
+    </testcase>
+    <testcase name="Invalid Login Test should display error message for invalid login with username: &quot;student&quot; and password: &quot;incorrectPassword&quot;" time="0.012" classname="should display error message for invalid login with username: &quot;student&quot; and password: &quot;incorrectPassword&quot;">
+      <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&quot;username&quot;]&quot;}
+  (Session info: chrome=138.0.7204.158)" type="NoSuchElementError"><![CDATA[NoSuchElementError: no such element: Unable to locate element: {"method":"css selector","selector":"*[name="username"]"}
+  (Session info: chrome=138.0.7204.158)
+    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:523:15)
+    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:524:13)
+    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:456:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:745:17)
+    at async toWireValue (node_modules/selenium-webdriver/lib/webdriver.js:149:15)
+    at async /Users/surabhikala/Desktop/JavaScript_CopilotTool/node_modules/selenium-webdriver/lib/webdriver.js:195:16
+    at async forEachKey (node_modules/selenium-webdriver/lib/webdriver.js:189:9)
+    at async convertKeys (node_modules/selenium-webdriver/lib/webdriver.js:194:3)
+    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:743:22)
+    at async Context.<anonymous> (tests/invalidLoginTest.js:61:9)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Login Page Tests" timestamp="2025-07-18T12:32:01" tests="2" file="/Users/surabhikala/Desktop/JavaScript_CopilotTool/tests/loginTest.js" time="35.155" failures="0">
+    <testcase name="Login Page Tests should display an error message for invalid login" time="2.302" classname="should display an error message for invalid login">
+    </testcase>
+    <testcase name="Login Page Tests should display an error message for invalid login" time="27.443" classname="should display an error message for invalid login">
+    </testcase>
+  </testsuite>
+</testsuites>
